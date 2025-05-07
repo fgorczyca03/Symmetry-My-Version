@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 import uvicorn
 import logging
+import os, signal
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api import wiki_article
